@@ -4,6 +4,6 @@ spring:
       globalcors:
         corsConfigurations:
           '[/**]':
-            allowedOrigins: "http://localhost:4200"
+            allowedOrigins: ${cognitive-exercises-frontend-host}
             allowedMethods: "*"
             allowedHeaders: "*"

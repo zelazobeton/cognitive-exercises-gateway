@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  cognitive-exercises-gateway:
+    build: ./
+    image: cognitive-exercises-gateway:0.0.2-SNAPSHOT
+    ports:
+      - "9090:9090"
+    environment:
+      COGNITIVE-EXERCISES-FRONTEND-HOST: http://localhost:4200
+      COGNITIVE-EXERCISES-MAIN-HOST: http://host.docker.internal:8081
+      COGNITIVE-EXERCISES-MEMORY-HOST: http://host.docker.internal:8082
