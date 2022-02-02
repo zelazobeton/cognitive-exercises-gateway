@@ -1,4 +1,4 @@
-# CognitiveExercisesGateway
+# cognitive-exercises-gateway
 
 Gateway microservice for all other cognitive-exercises microservices. Implemented using spring-cloud-starter-gateway. 
 
